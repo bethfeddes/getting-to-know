@@ -1,4 +1,4 @@
-# Introduction Website
+# Getting to Know Each Other
 - Author: Bethany Feddes
 ## Credits  
 - Eric Pogue
