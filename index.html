@@ -4,9 +4,21 @@
     <title>Me</title>
     <style>
 
-        a:link {
+        .contact-info a:link {
             color: #ffffff;
-    
+        }
+
+        .hobbies a:link {
+            color: #bd4674;
+        }
+
+        ul {
+            display: inline-block;
+            text-align: left;
+            list-style-type: square;
+        }
+        .hobbies, .course {
+            text-align: center;
         }
 
         body {
@@ -38,26 +50,28 @@
         .main-info p {
             margin: 2px 0;
         }
-        .hobbies, .introduction, .course, .job, .fun-fact {
+        .hobbies, .introduction, .course, .fun-fact {
             background: #e7e7e7;
             padding: 15px;
             margin-bottom: 10px;
         }
-        .hobbies h2, .introduction h2, .course h2, .job h2, .fun-fact h2 {
+        .hobbies h2, .introduction h2, .course h2, .fun-fact h2 {
             text-align: center;
         }
-        .hobbies p, .introduction p, .course p, .job p, .fun-fact p {
-            text-indent: 5px;
+        .introduction p, .fun-fact p {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-indent: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="main-info">
-            <h1>Bethany Feddes' Introductions Website</h1>
+            <h1>Bethany Feddes&rsquo; Introductions Website</h1>
             <h3>Preferred Name: Beth</h3>
 
-            <img src="me-800-by-800.jpg" alt="Bethany Feddes" style="display: block; margin: auto; max-width: 800px;">
+            <img src="me-800-by-800.jpg" alt="Bethany Feddes" style="display: block; margin: auto; max-width: 800px; max-height: auto;">
         </header>
 
         <section class="contact-info" style="padding: 0px;">
@@ -69,29 +83,38 @@
 
         <section class="introduction">
 			<h2>Introduction</h2>
-			
+			<p>Hi everyone! My name is Bethany, but you can call me Beth. I&rsquo;m a junior majoring in computer science and data science.
+                I come from a massive family, being the youngest of 8 kids! I have 15 nieces and nephews, and with my family all living nearby,
+                our house is often quite full. I&rsquo;m currently a barista at Dunkin&rsquo; Donuts and a volleyball coach. I played volleyball for 5
+                years, but I&rsquo;m excited now to teach others and share my love of the sport.
+            </p>
         </section>
 
 		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>To enhance my programming and planning skills, as well as learning to work in a team environment.</p>
-        </section>
-
-		<section class="job">
-            <h2>Current/Recent Job</h2>
-			<p>I am currently a barista at Dunkin' Donuts! I enjoy making fun drinks and brightening people's mornings.</p>
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul>
+                <li>Enhance my skills in project planning and development</li>
+                <li>Learn how to create self-documenting code</li>
+                <li>Gain experience in working with a team on a project</li>
+            </ul>
         </section>		
 
         <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>My main hobbies include baking, crochet, volleyball, and Dungeons & Dragons.</p>
+            <h2>My Favorite Hobby / Activity</h2>
+            <ul>
+                <li><a href="https://easycrochet.com/what-is-crochet/">Crochet</a></li>
+                <li><a href="https://www.dndbeyond.com/posts/1480-what-is-dungeons-dragons?srsltid=AfmBOopZRCf6QGwE1vtS3kK47jxHxPevz3-mnxXA722XvpungeldBaXr">Dungeons & Dragons</a></li>
+                <li><a href="https://usavolleyball.org/play/">Volleyball</a></li>
+                <li><a href="https://hobbies4.life/hobby/baking/">Baking</a></li>
+            </ul>
         </section>
 
         <section class="fun-fact">
             <h2>Fun Fact</h2>
-            <p>I'm the youngest of 8 kids and have 15 nieces and nephews!</p>
+            <p>Both my thumbs are now &ldquo;double-jointed&rdquo; thanks to volleyball injuries.</p>
         </section>
-		<p>Last updated on 29/08/2026</p>
+        <img src="me-300-by-300.jpg" alt="Smaller image of Bethany Feddes" style="display: block; margin: auto; max-width: 300px; max-height: auto;">
+		<p>Last updated on 07/09/2026 (dd/mm/yy)</p>
     </div>
 </body>
 </html>
